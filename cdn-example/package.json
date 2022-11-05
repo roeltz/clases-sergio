@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"build": "esbuild main.js --bundle --minify --sourcemap --outfile=main.bundle.js"
+	},
+	"dependencies": {
+		"@metamask/sdk": "^0.0.1-beta.5"
+	},
+	"devDependencies": {
+		"esbuild": "^0.15.13"
+	}
+}

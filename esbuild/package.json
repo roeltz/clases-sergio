@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"build": "esbuild main.js --bundle --minify --sourcemap --outfile=main.bundle.js"
+	},
+	"devDependencies": {
+		"esbuild": "^0.15.13"
+	},
+	"dependencies": {
+		"@edlink/typescript": "^1.0.1"
+	}
+}
